@@ -1,6 +1,6 @@
 # seed-pixel-correlation-map(SPCM)
 
-#### * Input:
+#### Input:
 
 1. a directory containing .tif or .raw files to analyze and Mask.tif. 
  
@@ -8,11 +8,11 @@
 
 1. optional: resolution in pixels
 
-#### * Output:
+#### Output:
 
 a directory named `seed_maps` containing SPCMs.
 
-#### * Syntax: 
+#### Syntax: 
 
 `python main.py -p/--path <path> -s/--seeds <seeds> -r/--resolution <resolution>`
 
