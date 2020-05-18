@@ -20,7 +20,7 @@ The following instruction to run the script assumes the following file structure
 
 ```
 |
-|- seed-pixel-correlation-map (your current directory, use pwd to check!)
+|-- seed-pixel-correlation-map (your current directory, use pwd to check!)
 |
 |-- data
   |
