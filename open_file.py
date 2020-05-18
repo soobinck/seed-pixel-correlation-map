@@ -9,7 +9,7 @@ def to_npy(filename, **kwargs):
     elif filename.endswith('.tif'):
         filename = tif2npy(filename)
     else:
-        raise ImportError
+        raise ImportError("No file to import.")
     return filename
 
 
