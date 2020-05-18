@@ -20,14 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb4dfef-06c3-4f4d-98e2-034206dbc5aa" name="Default Changelist" comment="fixed y axis reverse error.">
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_BCC2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_BCC2S2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_FLS1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_FLS2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_HLS1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_HLS2A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_HLS2B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/seed_maps/02_mBC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_BCC2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_BCC2S2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_FLS1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_FLS2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_HLS1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_HLS2A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_HLS2B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_maps/02_mBC.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

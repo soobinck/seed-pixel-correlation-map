@@ -46,7 +46,7 @@ for seed in seeds:
 
         ax = sns.heatmap(pears, cmap=cm.jet, vmin=0, vmax=1, square=True)
         ax.set_facecolor('xkcd:black')
-        ax.invert_yaxis()
+        # ax.invert_yaxis()
         fig = ax.get_figure()
         plt.title('seed pixel correlation')
         fig.savefig(os.path.join(path, 'seed_maps', filtered_file['file'][:3] + seed))
