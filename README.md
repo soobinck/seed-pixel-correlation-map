@@ -54,7 +54,7 @@ Notes:
 
 - For the format of seed file, please see `seeds_example.py`.
 
-- <path> should not have a directory named `seed_maps`, _or it will return an error_. 
+- `data` should not have a directory named `seed_maps`, _or it will return an error_. 
   
 <br/><br/>
 
