@@ -38,7 +38,7 @@ To run this code, please follow these steps:
 
 2. Find where your `Mask.tif` file and `Images_to_analyze.raw/.tif` are. Put them under the same directory.
 
-3. Using your terminal, `cd`(change directory) to the file where these files are stored.
+3. Using your terminal, `cd`(change directory) to `seed-pixel-correlation-map`.
 
 4. On your terminal, type `python main.py -p ../data -s ../data/seeds.py` if your Images has the dimension of 128 pixels by 128 pixels. If not, (if it's 512 for example) type `python main.py -p ../data -s ../data/seeds.py -r 512`
 
