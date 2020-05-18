@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bb4dfef-06c3-4f4d-98e2-034206dbc5aa" name="Default Changelist" comment="fixed y axis reverse error." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bmp6WkmxU446UPhsAMvwmgMqdh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bb4dfef-06c3-4f4d-98e2-034206dbc5aa" name="Default Changelist" comment="" />
+      <created>1589246947142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589246947142</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fixed y axis reverse error.">
+      <created>1589814535121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589814535121</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed y axis reverse error.">
+      <created>1589814674860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589814674860</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed y axis reverse error.">
+      <created>1589814721736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589814721736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fixed y axis reverse error." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed y axis reverse error." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="512" y="123" width="828" height="564" key="DiffContextDialog" timestamp="1589814870536">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="512" y="123" width="828" height="564" key="DiffContextDialog/0.23.1440.806@0.23.1440.806" timestamp="1589814870536" />
+    <state x="256" y="143" key="MergeDialog" timestamp="1589814582610">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="256" y="143" key="MergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1589814582610" />
+    <state x="408" y="279" width="848" height="394" key="MultipleFileMergeDialog" timestamp="1589814582630">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="408" y="279" width="848" height="394" key="MultipleFileMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1589814582630" />
+    <state x="526" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589814539473">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="526" y="145" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1589814539473" />
+    <state x="714" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589814827345">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="714" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1589814827345" />
+  </component>
+</project>
