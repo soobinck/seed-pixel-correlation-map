@@ -16,10 +16,9 @@ Syntax:
 
 `python main.py -p/--path <path> -s/--seeds <seeds> -r/--resolution <resolution>`
 
-
 <br/><br/>
 
-Welcome to my seed-pixel-correlation-map repository! 
+## Welcome to my seed-pixel-correlation-map repository! 
 
 This is a simple piece of code that generates SPCMs(or just correlation maps) given the location of seeds. 
 
