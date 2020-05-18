@@ -1,6 +1,6 @@
 # seed-pixel-correlation-map
 
-To run this script, run: `python main.py -p <path> -s <seed>` or `python main.py -p <path> -s <seed> -r <resolution>`. The default resolution 128.
+To run this script, run: `python main.py -p <path> -s <seed>` or `python main.py -p <path> -s <seed> -r <resolution>`. The default resolution 128 pixels per side length.
 
 The directory `<path>` **must** contain `Mask.tif`, _or it will return an error_.
 
