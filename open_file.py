@@ -9,7 +9,7 @@ def to_npy(filename, **kwargs):
     elif filename.endswith('.tif'):
         filename = tif2npy(filename)
     else:
-        raise ImportError("No file to import.")
+        raise ImportError("No .raw or .tif file to import.")
     return filename
 
 
@@ -17,7 +17,7 @@ def raw2npy(filename_from, side_length):
     fp = np.fromfile(filename_from, dtype=np.single).byteswap()
     frame_dim = side_length * side_length
     if len(fp) % frame_dim:
-        raise AssertionError("The total number of pixels are not divisible by the given side length (default 128).")
+        raise AssertionError("The total number of pixels are not divisible by the given side length %d." % side_length)
     num_frames = int(len(fp) / frame_dim)
     fp = fp.reshape(num_frames, side_length, side_length)
 

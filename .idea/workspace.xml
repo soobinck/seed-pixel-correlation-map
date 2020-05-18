@@ -19,19 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb4dfef-06c3-4f4d-98e2-034206dbc5aa" name="Default Changelist" comment="fixed y axis reverse error.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_seeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_seeds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iterate_thr_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterate_thr_files.py" afterDir="false" />
+    <list default="true" id="3bb4dfef-06c3-4f4d-98e2-034206dbc5aa" name="Default Changelist" comment="added description to errors">
       <change beforePath="$PROJECT_DIR$/open_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_BCC2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_BCC2S2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_FLS1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_FLS2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_HLS1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_HLS2A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_HLS2B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seed_maps/02_mBC.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589814721736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added description to errors">
+      <created>1589845158868</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589845158868</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added description to errors">
+      <created>1589845259068</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589845259068</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fixed y axis reverse error." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed y axis reverse error." />
+    <MESSAGE value="added description to errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="added description to errors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="123" width="828" height="564" key="DiffContextDialog" timestamp="1589814870536">
@@ -188,10 +192,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="408" y="279" width="848" height="394" key="MultipleFileMergeDialog/0.23.1440.806@0.23.1440.806" timestamp="1589814582630" />
-    <state x="526" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589814539473">
+    <state x="526" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589845260838">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
-    <state x="526" y="145" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1589814539473" />
+    <state x="526" y="145" key="Vcs.Push.Dialog.v2/0.23.1440.806@0.23.1440.806" timestamp="1589845260838" />
     <state x="714" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589814827345">
       <screen x="0" y="23" width="1440" height="806" />
     </state>
