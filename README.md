@@ -2,11 +2,11 @@
 
 Input:
 
-(1) a directory containing .tif or .raw files 
+(1) a directory containing .tif or .raw files to analyze and Mask.tif. 
+ 
+(2) seeds location. 
 
-(2) Mask.tif 
-
-(3) seeds location. 
+(3) optional: resolution in pixels
 
 Output:
 
