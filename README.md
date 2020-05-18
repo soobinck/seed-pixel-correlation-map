@@ -10,11 +10,11 @@
 
 #### Output:
 
-a directory named `seed_maps` containing SPCMs.
+* a directory named `seed_maps` containing SPCMs.
 
 #### Syntax: 
 
-`python main.py -p/--path <path> -s/--seeds <seeds> -r/--resolution <resolution>`
+* `python main.py -p/--path <path> -s/--seeds <seeds> -r/--resolution <resolution>`
 
 <br/><br/>
 
