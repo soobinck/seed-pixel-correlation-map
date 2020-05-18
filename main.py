@@ -37,7 +37,7 @@ for seed in seeds:
 
         frames = im.shape[0]
 
-        seed_loc = im[:, seeds[seed]['X'], seeds[seed]['Y']]
+        seed_loc = im[:, seeds[seed]['Y'], seeds[seed]['X']]
         seed_loc = np.dstack([seed_loc] * (resolution * resolution))
         seed_loc = seed_loc.reshape(frames, resolution, resolution)
         pears = pearsonr_matrix(seed_loc, im)
