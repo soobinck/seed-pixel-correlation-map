@@ -8,7 +8,14 @@ Input:
 
 (3) seeds location. 
 
-Output: a directory named `seed_maps` containing SPCMs.
+Output:
+
+a directory named `seed_maps` containing SPCMs.
+
+Syntax: 
+
+`python main.py -p/--path <path> -s/--seeds <seeds> -r/--resolution <resolution>`
+
 
 <br/><br/>
 
