@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bb4dfef-06c3-4f4d-98e2-034206dbc5aa" name="Default Changelist" comment="fixed y axis reverse error.">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_seeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_seeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterate_thr_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterate_thr_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/open_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seed_maps/02_BCC2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/seed_maps/02_BCC2S2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/seed_maps/02_FLS1.png" beforeDir="false" />
@@ -59,6 +62,34 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="seed-pixel-corr-map" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -117,6 +148,38 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="512" y="123" width="828" height="564" key="DiffContextDialog/0.23.1440.806@0.23.1440.806" timestamp="1589814870536" />
+    <state width="1141" height="231" key="GridCell.Tab.0.bottom" timestamp="1589829435149">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1589829435149" />
+    <state width="1141" height="231" key="GridCell.Tab.0.center" timestamp="1589829435148">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1589829435148" />
+    <state width="1141" height="231" key="GridCell.Tab.0.left" timestamp="1589829435148">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1589829435148" />
+    <state width="1141" height="231" key="GridCell.Tab.0.right" timestamp="1589829435149">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1589829435149" />
+    <state width="1141" height="231" key="GridCell.Tab.1.bottom" timestamp="1589829435151">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1589829435151" />
+    <state width="1141" height="231" key="GridCell.Tab.1.center" timestamp="1589829435150">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1589829435150" />
+    <state width="1141" height="231" key="GridCell.Tab.1.left" timestamp="1589829435150">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1589829435150" />
+    <state width="1141" height="231" key="GridCell.Tab.1.right" timestamp="1589829435150">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1141" height="231" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1589829435150" />
     <state x="256" y="143" key="MergeDialog" timestamp="1589814582610">
       <screen x="0" y="23" width="1440" height="806" />
     </state>

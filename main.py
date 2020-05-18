@@ -18,7 +18,7 @@ parser.add_argument('-r', '--resolution', default=128)
 io_args = parser.parse_args()
 path = io_args.path
 path_to_seeds = io_args.seeds
-resolution = io_args.resolution
+resolution = int(io_args.resolution)
 
 os.makedirs(os.path.join(path, 'seed_maps'), exist_ok=False)
 

@@ -17,7 +17,7 @@ def raw2npy(filename_from, side_length):
     fp = np.fromfile(filename_from, dtype=np.single).byteswap()
     frame_dim = side_length * side_length
     if len(fp) % frame_dim:
-        raise AssertionError
+        raise AssertionError("The total number of pixels are not divisible by the given side length (default 128).")
     num_frames = int(len(fp) / frame_dim)
     fp = fp.reshape(num_frames, side_length, side_length)
 

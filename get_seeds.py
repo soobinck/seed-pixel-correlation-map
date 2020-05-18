@@ -1,7 +1,9 @@
 from importlib.machinery import SourceFileLoader
 import os
-from importlib import  import_module
+from importlib import import_module
 import sys
+
+
 def get_seeds(path):
     Path = os.path.normpath(path)
     folders = Path.split('/')  # create list of each folder component of the path

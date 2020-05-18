@@ -11,5 +11,7 @@ def mask_filtered_files(root_dir):
                     mask = os.path.join(root, file)
                 else:
                     filtered.append({'root': root, 'file': file})
+    if mask is None:
+        raise ImportError("Make sure to include Mask.tif in path.")
 
     return mask, filtered
