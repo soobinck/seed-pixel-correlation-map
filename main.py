@@ -1,13 +1,15 @@
+import argparse
 import os
-from open_file import to_npy
+
 import matplotlib.cm as cm
+import numpy as np
 import seaborn as sns
 from matplotlib import pyplot as plt
-import numpy as np
-from scipy.stats import pearsonr
-from iterate_thr_files import mask_filtered_files
-import argparse
+
 from get_seeds import get_seeds
+from iterate_thr_files import mask_filtered_files
+from open_file import to_npy
+from pearsonr_matrix import pearsonr_matrix
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-p', '--path', required=True)
@@ -34,17 +36,13 @@ for seed in seeds:
             im = to_npy(os.path.join(filtered_file['root'], filtered_file['file']), side_length=resolution)
 
         frames = im.shape[0]
-        seed_loc = np.zeros((frames, 1, 1))
-        seed_loc = im[:, seeds[seed]['X'], seeds[seed]['Y']]
 
-        pears = np.zeros((resolution, resolution))
-        for i in range(resolution):
-            for j in range(resolution):
-                if mask[i][j] == 0:
-                    pears[i][j] = None
-                else:
-                    pears[i][j] = pearsonr(seed_loc,
-                                           im[:, i, j])[0]
+        seed_loc = im[:, seeds[seed]['X'], seeds[seed]['Y']]
+        seed_loc = np.dstack([seed_loc] * (resolution * resolution))
+        seed_loc = seed_loc.reshape(frames, resolution, resolution)
+        pears = pearsonr_matrix(seed_loc, im)
+        mask_idx = np.where(mask == 0)
+        pears[mask_idx] = None
 
         ax = sns.heatmap(pears, cmap=cm.jet, vmin=0, vmax=1, square=True)
         ax.set_facecolor('xkcd:black')
