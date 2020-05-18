@@ -8,3 +8,5 @@ The directory `<path>` **must** contain `Mask.tif`, _or it will return an error_
 
 Seed pixel correlation map .png files will be genereated to `<path>` under the directory `seed_maps`. <path> should not have a directory named `seed_maps`, _or it will return an error_. 
 
+
+Tested on MacOS Catalina.
