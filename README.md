@@ -31,8 +31,8 @@ The following instruction to run the script assumes the following file structure
 |-- data
   |
   |-Mask.tif
-  |-Images_to_analyze.tif
-  |-Images_to_analyze.raw
+  |-01_Images_to_analyze.tif
+  |-02_Images_to_analyze.raw
   |-seeds.py
 
 ```
@@ -56,12 +56,15 @@ To run this code, please follow these steps:
 
 Notes:
 
-- The directory `<path>` **must** contain `Mask.tif`, _or it will return an error_.
+- The directory `<path> (data)` **must** contain `Mask.tif`, _or it will return an error_.
 
 - For the format of seed file, please see `seeds_example.py`.
 
-- `data` should not have a directory named `seed_maps`, _or it will return an error_. 
+- The directory `<path> (data)` should not have a directory named `seed_maps`, _or it will return an error_. 
   
 <br/><br/>
 
 Tested on MacOS Catalina. I do not have a Windows machine so I couldn't test it on that OS. To guarantee the script to run, put all of the data (Mask.tif, seeds.py and Images_to_analyze.raw/.tif) into `seed-pixel-correlation-map` and run `python main.py -p ./ -s ./seeds.py` (or if your pics have a resolution other than 128, let's say 512, run `python main.py -p ./ -s ./seeds.py -r 512`).
+
+
+For any questions or problems, feel free to contact me at soobin.kim@alumni.ubc.ca. 
