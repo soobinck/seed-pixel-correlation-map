@@ -12,13 +12,13 @@ from get_seeds import get_seeds
 parser = argparse.ArgumentParser()
 parser.add_argument('-p', '--path', required=True)
 parser.add_argument('-s', '--seeds', required=True)
+parser.add_argument('-r', '--resolution', default=128)
 io_args = parser.parse_args()
 path = io_args.path
 path_to_seeds = io_args.seeds
+resolution = io_args.resolution
 
 os.makedirs(os.path.join(path, 'seed_maps'), exist_ok=False)
-
-resolution = 128
 
 mask, filtered_files = mask_filtered_files(path)
 
@@ -48,7 +48,8 @@ for seed in seeds:
 
         ax = sns.heatmap(pears, cmap=cm.jet, vmin=0, vmax=1, square=True)
         ax.set_facecolor('xkcd:black')
+        ax.invert_yaxis()
         fig = ax.get_figure()
         plt.title('seed pixel correlation')
-        fig.savefig(os.path.join(path, 'seed_maps' , filtered_file['file'][:3] + seed))
+        fig.savefig(os.path.join(path, 'seed_maps', filtered_file['file'][:3] + seed))
         plt.clf()

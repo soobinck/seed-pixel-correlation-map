@@ -20,7 +20,10 @@ def raw2npy(filename_from, side_length):
         raise AssertionError
     num_frames = int(len(fp) / frame_dim)
     fp = fp.reshape(num_frames, side_length, side_length)
-
+    # print(fp)
+    # for i in range(num_frames):
+    #     fp_1 = fp[i]
+    #     cv2.imshow('', fp_1)
     return fp
 
 
